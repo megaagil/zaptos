@@ -22,7 +22,7 @@ npm run build
 | --- | --- |
 | `src/components/zaptos/telas` | Painel, agenda, ordens, conversas, clientes e configurações |
 | `src/components/zaptos/formularios` | Formulários de OS, horário e cliente |
-| `src/components/zaptos/acesso` | Login, cadastro e confirmação de celular |
+| `src/components/zaptos/acesso` | Login, cadastro, confirmação de celular e campos de validação |
 | `src/components/zaptos/ordem` | Detalhe da ordem aberta |
 | `src/lib/zaptos/store.ts` | Ações da operação (ordens, agenda, conversas) |
 | `src/lib/zaptos/instancia.ts` | Dados gravados por e-mail, um negócio por conta |

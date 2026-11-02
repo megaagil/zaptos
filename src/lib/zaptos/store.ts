@@ -2,7 +2,6 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { sair } from "./conta";
 import { armazenamentoDaConta, fatiaDe, lerMapa, migrarInstancias, VAZIO } from "./instancia";
-export { migrarInstancias };
 import { firstName, nowStamp, todayKey, uid } from "./format";
 import {
   COLUNAS_PADRAO,
@@ -31,6 +30,8 @@ import type {
   TipoAtendimento,
   View,
 } from "./types";
+
+export { migrarInstancias };
 
 type AgendaPayload = {
   data: string;
