@@ -12,3 +12,6 @@ artifacts
 screenshots
 attachments
 .grok
+.project_id
+.node_modules.lock
+AGENTS.md
